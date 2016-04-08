@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For PagonGameDev_GameLoop
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GameInterval	KEYWORD1
+GameInput	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+DeltaTime	KEYWORD2
+update		KEYWORD2
+getKey		KEYWORD2
+getKeyDown	KEYWORD2
+getKeyUp	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
