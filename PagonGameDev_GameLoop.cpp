@@ -52,7 +52,7 @@ bool GameInput::getKey(int iPinInput, bool isTrueState)
   return isRe;
 }
 
-bool GameInput::getKeyDown(int iPinInput, bool isTrueState, byte& bInputBuffRead)
+bool GameInput::getKeyDown(int iPinInput, bool isTrueState, bool& bInputBuffRead)
 {
   bool isRe = false;
 
@@ -78,7 +78,7 @@ bool GameInput::getKeyDown(int iPinInput, bool isTrueState, byte& bInputBuffRead
   return isRe;
 }
 
-bool GameInput::getKeyUp(int iPinInput, bool isTrueState, byte& bInputBuffRead)
+bool GameInput::getKeyUp(int iPinInput, bool isTrueState, bool& bInputBuffRead)
 { bool isRe = false;
 
   bool isBtnUp = HIGH;

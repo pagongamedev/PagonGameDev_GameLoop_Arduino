@@ -31,7 +31,7 @@ class GameInput
   public:
     GameInput();
     static bool getKey(int iPinInput, bool isTrueState);
-    static bool getKeyDown(int iPinInput, bool isTrueState, byte& bInputBuffRead);
-    static bool getKeyUp(int iPinInput, bool isTrueState, byte& bInputBuffRead);
+    static bool getKeyDown(int iPinInput, bool isTrueState, bool& bInputBuffRead);
+    static bool getKeyUp(int iPinInput, bool isTrueState, bool& bInputBuffRead);
 };
 #endif
